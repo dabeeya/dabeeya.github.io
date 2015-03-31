@@ -1,13 +1,13 @@
-#container
-{
-width:900px;
-margin:0 auto;
-overflow:auto;
+#container {
+  width:900px;
+  margin:0 auto;
+  overflow:auto;
 }
-#header
-{
-height:90px;
+
+#header {
+  height:90px;
 }
+
 #nav
 {
 overflow:auto;
