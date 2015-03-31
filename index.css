@@ -1,99 +1,48 @@
+#container
 {
-    margin: 0;
-    padding: 0;
+width:900px;
+margin:0 auto;
+overflow:auto;
 }
-
-/* Tell the browser to render HTML 5 elements as block */
-header, footer, aside, nav, article {
-    display: block;
+#header
+{
+height:90px;
 }
-
-body {
-    margin: 0 auto;
-    width: 940px;
-    font: 13px/22px Helvetica, Arial, sans-serif;
-    background: #f0f0f0;
+#nav
+{
+overflow:auto;
 }
-
-nav {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background: url("nav_background");
+#nav ul
+{
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px;
 }
-
-nav ul {
-    margin: 0 auto;
-    width: 940px;
-    list-style: none;
+#nav ul li
+{
+float:left;
+margin:10px;
 }
-
-nav ul li {
-    float: left;
+#main
+{
+overflow:auto;
+margin-top:3px;
 }
-
-    nav ul li a {
-        display: block;
-        margin-right: 20px;
-        width: 140px;
-        font-size: 14px;
-        line-height: 44px;
-        text-align: center;
-        text-decoration: none;
-        color: #777;
-    }
-
-        nav ul li a:hover {
-            color: #fff;
-        }
-
-        nav ul li.selected a {
-            color: #fff;
-        }
-
-        nav ul li.subscribe a {
-            margin-left: 22px;
-            padding-left: 33px;
-            text-align: left;
-            background: url("rss.png") left center no-repeat;
-        }
-
-
-h2 {
-    font-size: 28px;
-    line-height: 44px;
-    padding: 22px 0;
+#main_left
+{
+float:left;
+width:600px;
+min-height:400px;
 }
-
-h3 {
-    font-size: 18px;
-    line-height: 22px;
-    padding: 11px 0;
+#main_right
+{
+float:left;
+width:300px;
+min-height:400px;
 }
-
-p {
-    padding-bottom: 22px;
+#footer
+{
+height:40px;
 }
-
-#intro {
-    margin-top: 66px;
-    padding: 44px;
-    background: #467612 url("intro_background.png") repeat-x;
-    background-size: 100%;
-    border-radius: 22px;
-}
-
-#content {
-    display: table;
-}
-
-    #mainContent {
-        display: table-cell;
-        width: 620px;
-        padding-right: 22px;
-    }
-
-    aside {
-        display: table-cell;
-        width: 300px;
-    }
+</style>
