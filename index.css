@@ -15,6 +15,19 @@ body {
     background: #f0f0f0;
 }
 
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url("nav_background");
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+
 h2 {
     font-size: 28px;
     line-height: 44px;
@@ -30,3 +43,26 @@ h3 {
 p {
     padding-bottom: 22px;
 }
+
+#intro {
+    margin-top: 66px;
+    padding: 44px;
+    background: #467612 url("intro_background.png") repeat-x;
+    background-size: 100%;
+    border-radius: 22px;
+}
+
+#content {
+    display: table;
+}
+
+    #mainContent {
+        display: table-cell;
+        width: 620px;
+        padding-right: 22px;
+    }
+
+    aside {
+        display: table-cell;
+        width: 300px;
+    }
