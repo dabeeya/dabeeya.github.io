@@ -5,8 +5,9 @@
 }
 
 #header {
-  background-image: url('color.jpg')
-  height:90px;
+  background-image: url('color.jpg');
+  height:300px;
+  width:400;
 }
 
 #nav {
